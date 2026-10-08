@@ -89,7 +89,7 @@ h1{font:700 clamp(30px,7vw,44px)/1.05 var(--display);letter-spacing:-.03em;margi
 <section class="hero">
   <span class="hero-state" id="state">Right now</span>
   <h1 id="head">Everything below is working</h1>
-  <p class="meta">Each line is checked every minute. Last checked <time datetime="2026-10-08T00:52:53.976Z" data-local>8 Oct 2026, 00:52 UTC</time>. Checks began <time datetime="2026-10-03" data-local="date">3 Oct 2026</time>.</p>
+  <p class="meta">Each line is checked every minute. Last checked <time datetime="2026-10-08T01:07:54.322Z" data-local>8 Oct 2026, 01:07 UTC</time>. Checks began <time datetime="2026-10-03" data-local="date">3 Oct 2026</time>.</p>
   <p class="stale" id="stale" hidden></p>
 </section>
 <section class="card">
@@ -144,8 +144,8 @@ h1{font:700 clamp(30px,7vw,44px)/1.05 var(--display);letter-spacing:-.03em;margi
      headline. A tab left open asks for the published history every few
      minutes: a newer publish reloads the page, so a working checker is never
      shown as stopped, and only a history that has stopped moving is. */
-  var last="2026-10-08T00:52:53.976Z";
-  var generated="2026-10-08T00:52:53.976Z";
+  var last="2026-10-08T01:07:54.322Z";
+  var generated="2026-10-08T01:07:54.322Z";
   var fmt=function(d){try{return new Intl.DateTimeFormat(undefined,{day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",timeZoneName:"short"}).format(d);}catch(e){return d.toISOString();}};
   function refresh(){
     if(!window.fetch)return evaluate();
